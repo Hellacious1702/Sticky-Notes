@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@500&family=Patrick+Hand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merienda', cursive;
+}
+
+body{
+    background: linear-gradient(45deg , #ffc3a0 , #6dd5ed);
+}
+
+.header{
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.brand{
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.brand h1{
+    margin-inline: 20px;
+}
+
+ .brand img{
+    width: 40px;
+ }
+
+ nav a{
+    margin-inline: 10px;
+    color: black;
+    text-decoration: none;
+ }
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 3%;
+    padding-left: 5%;
+}
+
+.container h1 img{
+    width: 65px;
+    margin-right: 10px;
+}
+.container button{
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    padding: 10px 30px;
+    outline: none;
+    border-radius: 30px;
+    background: linear-gradient(45deg , #753a88 , #2c3e50);
+    color: white;
+    fill: white;
+}
+
+.container button img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.Input-Box{
+    background: white;
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    margin: 20px 0;
+    border-radius: 5px;
+    padding: 20px;
+    outline: none;
+    box-shadow: 10px 10px 15px grey;
+    font-size: 26px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.Input-Box img{
+    width: 20px;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    cursor: pointer;
+}
